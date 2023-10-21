@@ -5,12 +5,14 @@
     <title>Colegio</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Colegio" content="Infomcaion de un colegio">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Infomcion de un colegio">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+
     
 </head>
 <body>
-    <a class="botonw " href=" https://wa.me/1234">
+    <a class="botonw " href=" https://wa.me/1234"  target="_blank">
         <img src="imagenes/whatsapp.png" alt="">
     </a>
     <!--Diseño del header-->
@@ -22,8 +24,9 @@
         
         <nav class="navbar">
             <a href="#seccion1" class="link">Home</a>
-            <a href="#seccion2" class="link">Servicios</a>
-            <a href="#seccion3" class="link">Colaboradores</a>
+            <a id="s2a" href="#seccion2" class="escondido link">Servicios</a>
+            <a id="s3a" href="#seccion3" class="escondido link">Colaboradores</a>
+            <button>Ver mas</button>
             <a href="#footer" class="link" >
                 <img class="imagen_flechaabajo" src="imagenes/flecha-hacia-abajo.png" alt="">
             </a>
@@ -39,8 +42,7 @@
             <h1>Institucion Educativa Hermoz </h1>
             <p>El Colegio Hermoz es una institución educativa comprometida con la excelencia académica y el desarrollo integral de sus estudiantes. Fundado en 1977, destaca por su enfoque en valores como la excelencia, la integridad, la diversidad y la comunidad.
                 Con un plan de estudios riguroso y un personal altamente calificado, promueve el pensamiento crítico y la creatividad. Sus instalaciones de vanguardia incluyen laboratorios, biblioteca moderna y áreas deportivas.
-            </p>
-            
+            </p> 
         </div>
 
         <div class="s1_div2">
@@ -49,79 +51,16 @@
     </section>
 
     <!--Diseño seccion2-->
-    <section id="seccion2" class="seccion2" >
-        
-        <div class="s2_div1">
-            <h1 class="s2_h1">Servicios</h1>
-        </div>
-
-        <div class="s2_div2">
-            <div>
-                <h1>Asesoría Académica Personalizada </h1>
-                <p>Orientación individualizada para establecer metas académicas y superar desafíos.</p>
-            </div>
-            <div>
-                <h1>Tutorías</h1>
-                <p>Apoyo adicional en áreas específicas y refuerzo académico</p>
-            </div>
-            <div>
-                <h1>Actividades Extracurriculares</h1>
-                <p>Oportunidades para explorar intereses y desarrollar habilidades fuera del aula.</p>
-            </div>
-            <div>
-                <h1>Consejería y Apoyo Psicológico </h1>
-                <p>Ayuda emocional y social para los estudiantes.</p>
-            </div>
-            <div>
-                <h1>Educación para la Salud</h1>
-                <p>Programas para promover el bienestar físico y mental.</p>
-            </div>
-            <div>
-                <h1>Eventos Educativos</h1>
-                <p>Conferencias y actividades que fomentan el aprendizaje y la interacción comunitaria.</p>
-            </div>
-            
-        </div>
-
+    <section id="seccion2" class="seccion2 escondido" >
+        <h1 class="titulo">Servicios</h1>
+        <div class="contenedor-servicios"></div>  
     </section>
 
     <!--Diseño seccion3-->
-    <section id="seccion3" class="seccion3">
-        <div class="s3_div1">
-            <h1>Colaboradores</h1>
-        </div>
+    <section id="seccion3" class="seccion3 escondido">
+        <h1>Colaboradores</h1>
+        <div class="contenedor-colaborador"></div>
 
-        <div class="s3_div2">
-            <div class="colaborador">
-
-                <div class="div_colaborador">
-                    <img src="imagenes/avatar_126486.png" alt="">
-                </div>
-
-                <h1>Luis Pérez </h1>
-                <p>Directoror</p>
-            </div>
-          
-            <div class="colaborador">
-
-                <div class="div_colaborador">
-                    <img src="imagenes/avatar_126486.png" alt="">
-                </div>
-
-                <h1>María Rodríguez </h1>
-                <p>Coordinadora Académica</p>
-            </div>
-
-            <div class="colaborador">
-
-                <div class="div_colaborador">
-                    <img src="imagenes/avatar_126486.png" alt="">
-                </div>
-
-                <h1>Laura García </h1>
-                <p>Coordinadora de Comunicaciones y Eventos</p>
-            </div>
-        </div>
     </section>
 
     <footer id="footer" class="footer">
