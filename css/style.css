@@ -35,41 +35,49 @@
 .header .navbar {
     display: flex;
     flex-direction: row;
-    height: 100%;
+    align-items: center;
+    height: 5rem;
     width: 40vw;
-    padding: 1rem;
     grid-column-gap: 0.5rem;
+   /* border: 2px solid rgb(0, 0, 0);*/
 }
 
 .navbar a {
-
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
-    height: 50%;
+    width: 50%;
+    height: 40%;
     border-radius: 5rem;
     color: black;
-    font-weight: 900;
     text-decoration: none;
 }
 
-.ver{
-    display: flex;
-}
+
 
 .escondido {
     display: none;
 }
 
+
+#vermas{
+    
+    border-radius: 5rem;
+    color: black;
+    width: 50%;
+    height: 40%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
 .link {
     
-    width: 50%;
+    width: 3rem;
     height: 50%;
     background: 50%;
     border: 2px solid black;
     text-align: center;
     align-items: center;
     justify-content: center;   
+    font-weight: 900;
 }
 
 .link:hover {
@@ -169,9 +177,7 @@ section{
     height: 100%;
     border: 2px solid rgb(1, 158, 255); 
     flex-wrap: wrap;
-    border-radius: 1rem;
-    padding: 2rem;
-    row-gap: 3rem;
+    row-gap: 0.5rem;
 }
 
 .contenedor-servicios .servicio{
@@ -182,7 +188,7 @@ section{
     width: 30%;
     border: 2px solid rgb(149, 0, 255);
     row-gap: 2rem;
-    padding: 5rem;
+    padding: 3.5rem;
     border-radius: 1rem;
 }
 
@@ -217,8 +223,15 @@ section{
     width: 30%;
     border: 2px solid rgb(149, 0, 255);
     row-gap: 2rem;
-    padding: 5rem;
+    padding: 3.5rem;
     border-radius: 1rem;
+}
+
+
+.img-colaborador{
+    display: flex;
+    height: 30%;
+    width: 30%;
 }
 
 .footer div{

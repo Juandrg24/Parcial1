@@ -17,10 +17,7 @@ const data =[
 ];
 
 const contenedor=document.querySelector('.contenedor-servicios');
-/*const traerLaA=document.getElementById('s2a');
-traerLaA.classList.remove("escondido");
-console.log(traerLaA.classList);*/
-/*traerLaA.classList;*/
+
 
 function mostrarServicios(){
     for(let servicio of data){

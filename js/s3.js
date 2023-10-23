@@ -1,7 +1,7 @@
 function crearColaboradores({imagenUrl,titulo,descripcion}){
     return`
         <div class="colaborador">
-            <img src=${imagenUrl}>
+            <img class="img-colaborador"src=${imagenUrl}>
             <h1>${titulo}</h1>
             <p>${descripcion}</p>
         </div>
@@ -21,5 +21,6 @@ function mostrarColaboradores(){
         const colaboradorHtml= crearColaboradores(colaborador);
         contenedorColaboradores.insertAdjacentHTML('beforeend',colaboradorHtml);
     };
-}
+};
+
 export{mostrarColaboradores};
