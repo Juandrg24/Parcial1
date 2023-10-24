@@ -9,11 +9,11 @@ function crearServicio({titulo,descripcion}){
 
 const data =[
     {titulo:"Asesoría Académica Personalizada", descripcion: "Orientación individualizada para establecer metas académicas y superar desafíos"},
-    {titulo:"Seccion Dos", descripcion: "Descripcion de la Seccion Dos"},
-    {titulo:"Seccion Tres", descripcion: "Descripcion de la Seccion Tres"},
-    {titulo:"Seccion Cuatro", descripcion: "Descripcion de la Seccion Cuatro"},
-    {titulo:"Seccion Cinco", descripcion: "Descripcion de la Seccion Cinco"},
-    {titulo:"Seccion Seis", descripcion: "Descripcion de la Seccion Seis"},
+    {titulo:"Tutorías", descripcion: "Apoyo adicional en áreas específicas y refuerzo académico"},
+    {titulo:"Actividades Extracurriculares", descripcion: "Oportunidades para explorar intereses y desarrollar habilidades fuera del aula"},
+    {titulo:"Consejería y Apoyo Psicológico", descripcion: "Ayuda emocional y social para los estudiantes"},
+    {titulo:"Educación para la Salud", descripcion: "Programas para promover el bienestar físico y mental"},
+    {titulo:"Eventos Educativos", descripcion: "Conferencias y actividades que fomentan el aprendizaje y la interacción comunitaria"}
 ];
 
 const contenedor=document.querySelector('.contenedor-servicios');

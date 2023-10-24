@@ -9,9 +9,9 @@ function crearColaboradores({imagenUrl,titulo,descripcion}){
 }
 
 const cola =[
-    {imagenUrl:"imagenes/avatar_126486.png", titulo:"Asesoría Académica Personalizada", descripcion: "Orientación individualizada para establecer metas académicas y superar desafíos"},
-    {imagenUrl:"imagenes/avatar_126486.png",titulo:"Seccion Dos", descripcion: "Descripcion de la Seccion Dos"},
-    {imagenUrl:"imagenes/avatar_126486.png",titulo:"Seccion Tres", descripcion: "Descripcion de la Seccion Tres"},
+    {imagenUrl:"imagenes/señor.png", titulo:"Luis Pérez", descripcion: "Directoror"},
+    {imagenUrl:"imagenes/señora.png",titulo:"María Rodríguez", descripcion: "Coordinadora Académica"},
+    {imagenUrl:"imagenes/señorita.png",titulo:"Laura García", descripcion: "Coordinadora de Comunicaciones y Eventos"}
 ];
 
 const contenedorColaboradores=document.querySelector('.contenedor-colaborador');

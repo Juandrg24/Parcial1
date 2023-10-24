@@ -1,3 +1,8 @@
+*{
+    font-family: Arial, Helvetica, sans-serif /*Se define el font family para todos los elementos como Times New Roman (Puede ser otro diferente) */
+}
+
+
 .contenedor-modal{
     display: flex;
     position: fixed;
@@ -12,13 +17,42 @@
 
 .modal{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    text-align: center;
     background-color: green;
     border-radius: 1rem;
-    height: 50%;
-    width: 30%;
+    height: 70%;
+    width: 40%;
     flex-direction: column;
+    
+}
 
+.div-button{
+    display: flex;
+    width: 50%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
 
+button{
+    display: flex;
+    border-radius: 2rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: yellowgreen;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+button:hover {
+    box-shadow: 0 0 2rem black;
+    background-color: white;
+    color: rgb(0, 255, 0);
+    cursor: pointer; /* el puntero se convierte en una manito */
 }
